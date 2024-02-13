@@ -1,4 +1,41 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+:root{
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+    
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 .attribution{
     position: absolute;
     bottom: 0;
+}
+
+body{
+    background-color: var(--eggshell);
+}
+
+.container{
+    width: 1000px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+
+}
+
+.container img{
+    width: 100%;
 }
