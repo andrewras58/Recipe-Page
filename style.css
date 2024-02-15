@@ -27,7 +27,7 @@ h3, p, li, td{
     font-family: 'Outfit', sans-serif;
 }
 
-p, li{
+p, li, td{
     font-size: 16px;
 }
 
@@ -58,4 +58,81 @@ h2, .tableValue{
 .description h1{
     font-size: 48px;
     font-family: 'Young Serif', sans-serif;
+}
+
+.prepTime{
+    background-color: var(--roseWhite);
+    padding: 25px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.prepTime h3{
+    color: var(--darkRaspberry);
+    margin: 0px;
+}
+
+.prepTime li::marker{
+    color: var(--darkRaspberry);
+}
+
+.prepTime li{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.prepTime ul{
+    padding-left: 20px;
+}
+
+.ingredients{
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.ingredients li::marker{
+    color: var(--nutmeg);
+}
+
+.ingredients ul{
+    padding-left: 20px;
+}
+
+.ingredients li{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.instructions{
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.instructions li{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.instructions ol{
+    padding-left: 20px;
+}
+
+.instructions li::marker{
+    color: var(--nutmeg);
+    font-weight: 700;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition tr{
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.nutrition tr:last-child{
+    border: none;
+}
+
+.nutrition td{
+    
 }
